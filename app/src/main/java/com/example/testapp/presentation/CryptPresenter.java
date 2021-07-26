@@ -1,4 +1,4 @@
-package com.example.testapp;
+package com.example.testapp.presentation;
 
 import com.example.testapp.data.response.Crypt;
 import com.example.testapp.domain.interactor.CryptInteractor;

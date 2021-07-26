@@ -1,4 +1,4 @@
-package com.example.testapp;
+package com.example.testapp.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,13 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.testapp.R;
 import com.example.testapp.data.response.Crypt;
+import com.example.testapp.presentation.CryptPresenter;
+import com.example.testapp.presentation.CryptView;
 
 public class MainActivity extends AppCompatActivity implements CryptView {
 
